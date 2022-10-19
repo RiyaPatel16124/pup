@@ -5,7 +5,6 @@ import tkinter as tk
 window = tk.Tk()
 window.title("Window")
 window.geometry("600x500")
-
 var = tk.StringVar()
 l = tk.Label(window, bg='white', width=20, text='')
 l.pack()
