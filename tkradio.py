@@ -8,7 +8,6 @@ window.geometry("600x500")
 var = tk.StringVar()
 l = tk.Label(window, bg='white', width=20, text='')
 l.pack()
-
 def print_selection():
     l.config(text='you have selected ' + var.get())
 
