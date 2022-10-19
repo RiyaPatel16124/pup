@@ -2,7 +2,6 @@ from cgitb import text
 from distutils.cmd import Command
 from multiprocessing.sharedctypes import Value
 import tkinter as tk
-
 window = tk.Tk()
 window.title("Window")
 window.geometry("600x500")
